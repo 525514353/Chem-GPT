@@ -20,8 +20,6 @@ clone the repository and install the required dependencies:
 
 ```bash
 git clone https://github.com/525514353/COMPOUND-GPT.git
-cd COMPOUND-GPT
-Pip install -r requirements.txt
 
 ## Usage
 
