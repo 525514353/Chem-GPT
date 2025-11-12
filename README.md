@@ -1,6 +1,8 @@
 # Chem-GPT
 
 A Large Model for Predicting Compound Properties
+If this code is help for you
+please dont hesitate to cite our article：Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity
 
 ## Overview
 COMPOUND-GPT is an advanced machine learning model designed to predict various properties of chemical compounds. This repository includes pre-trained models, tokenizer scripts, and example notebooks to help users leverage COMPOUND-GPT for their own research and development purposes.
