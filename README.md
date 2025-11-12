@@ -1,43 +1,21 @@
 # Chem-GPT
 
-A Large Model for Predicting Compound Properties
-If this code is help for you
-please dont hesitate to cite our article：Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity
+**A Large-Scale Chemical Language Model for Accurate and Interpretable Prediction of Reactivity and Toxicity**
 
-## Overview
-COMPOUND-GPT is an advanced machine learning model designed to predict various properties of chemical compounds. This repository includes pre-trained models, tokenizer scripts, and example notebooks to help users leverage COMPOUND-GPT for their own research and development purposes.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-  - [Pre-training](#pre-training)
-  - [Tokenizers](#tokenizers)
-  - [Hydroxyl Radical Prediction](#hydroxyl-radical-prediction)
-  - [Toxicity Prediction](#toxicity-prediction)
-- [Contributing](#contributing)
-- [License](#license)
+## 📢 Citation
 
-## Installation
-clone the repository and install the required dependencies:
+**If you use this code or model in your research, please cite our paper:**
 
-```bash
-git clone https://github.com/525514353/COMPOUND-GPT.git
+> Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity  
+> *Process Safety and Environmental Protection* (2025)  
+> **DOI: [10.1016/j.psep.2025.108113](https://doi.org/10.1016/j.psep.2025.108113)**
 
-## Usage
-
-#Pre-training
-The pre_training module includes scripts to train the model on a dataset of chemical compounds. Customize your dataset and training parameters as needed.
-
-#Tokenizers
-The tokenizers_lcm module provides tools to process chemical structures into token sequences that the model can understand.
-
-#Hydroxyl Radical Prediction
-The hydroxyl_radical module contains a fine_tune model to predict the reactivity of compounds with hydroxyl radicals.
-
-#Toxicity Prediction
-The toxicity module offers functionality to assess the toxicity levels of chemical compounds using the fine_tune model.
-
-##License
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-Feel free to customize the content as needed. This structure aims to provide clarity and usability for users interested in using or contributing to your project.
+```bibtex  
+@article{chemgpt2025,  
+  title={Large-scale chemical language models for accurate and interpretable prediction of reactivity and toxicity},  
+  journal={Process Safety and Environmental Protection},  
+  year={2025},  
+  doi={10.1016/j.psep.2025.108113}  
+}  
